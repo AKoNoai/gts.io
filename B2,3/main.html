@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title> Bai tap 2</title>
+    </head>
+    <body>
+        <h1>Guest Resveration</h1>
+        <form>
+            <fieldset>
+            <legend>General Inormation</legend>
+            <label>Arrival date: </label>
+            <input type ="text" name="Arrival date" id="arrival date"><br>
+            <label>Nights: </label>
+            <input type ="text" name="Nights" id="nights"><br>
+            
+            <label>Adults: </label>
+            <select name="adults" id="ad">
+                <optgroup label = "Adults">
+                    <option value ="1" >1</option>
+                    <option value ="2">2</option>
+                    <option value ="3">3</option>
+            </select><br>
+            
+            <label>Children: </label>
+            <select name="children" id="cd">
+                <optgroup label = "Children">
+                    <option value ="0">0</option>
+                    <option value ="1">1</option>
+                    <option value ="2">2</option><br>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            Room type:
+            <input type ="radio" name ="gt" value="Standard" id = "gt-sd" >
+            <label>Standard</label>
+            <input type ="radio" name ="gt" value="Business" id = "gt-bn" >
+            <label>Business</label>
+            <input type ="radio" name ="gt" value="Suite" id = "gt-st" >
+            <label>Suite</label><br>
+            Bed type:
+            <input type ="radio" name ="gt" value="king" id = "gt-king" >
+            <label>King</label>
+            <input type ="radio" name ="gt" value="Double Double" id = "gt-ddl" >
+            <label>Double Double</label><br>
+            <input type = "checkbox" name="Languaes1" value ="sk">
+            Smoking
+        </fieldset>
+        
+        <fieldset>
+            <legend>Contact Information</legend>
+            Name:
+            <input type="text" name="username" id="username"><br>
+            Email:
+            <input type="text" name="useremail" id="usermail"><br>
+            Phone:
+            <input type="text" name="userphone" id="userphone"><br>
+        </fieldset>
+        
+        <input type="submit" name="sbrvtion" vale="Subimit Reservetion">
+        </form>
+    </body>
+</html>
